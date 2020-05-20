@@ -1,0 +1,60 @@
+.signuperror
+{
+	color: red;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+}
+
+.signupsuccess
+{
+    color: green;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+}
+.bd
+{
+	background-image: url('../pic/2554554.jpg');
+  	background-size: 100% 675px;  
+  	background-repeat: no-repeat;	
+}
+.container
+{
+	position: absolute;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: white;
+	margin: 100px 28% 0px 40%;
+	padding: 20px 30px;
+	box-shadow: 1px 1px 18px 0px rgba(0, 0, 0, 0.04), -1px -1px 18px 0px rgba(0, 0, 0, 0.04),
+    			2px 2px 38px 0px rgba(0, 0, 0, 0.08), -2px -2px 38px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+   	opacity: 0.95;
+}	
+input,select,textarea
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+	border-radius: 5px;
+	border:none;
+	background: transparent;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);	
+	padding: 6px 4px 6px 12px;
+	margin: 7px;
+}
+input[type=submit]
+{
+	padding: 8px 12px;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	border-radius: 10px;
+	font-weight: bold;
+    border: 3px solid #A2D9CE;
+    /*background-image: url('../Pic/pitch.jpg');
+    color: white;*/
+	opacity: 1.0;
+	transition: 0.8s;
+}
+input[type=submit]:hover
+{
+	opacity:0.7;
+    transform: scale(.96);
+}
